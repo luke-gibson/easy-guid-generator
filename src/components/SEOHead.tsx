@@ -18,7 +18,7 @@ const SEOHead = ({
   ogDescription = 'Generate globally unique identifiers (GUIDs) instantly with EasyGUID. A fast, free, and secure online GUID generator with copy and history features. No sign-up needed.',
   ogImage = 'https://res.cloudinary.com/dqqarxqbu/image/upload/v1746107614/Screenshot_2025-05-01_at_14.53.10_fvlixj.png',
   twitterCard = 'summary_large_image',
-  url = 'https://yourdomain.com',
+  url = 'https://www.easyguid.co.uk',
 }: SEOHeadProps) => {
   return (
     <Head>
