@@ -1,4 +1,5 @@
 import React from 'react';
+import { TrashIcon } from './Icons/Trash';
 
 interface HistoryProps {
   history: { guid: string; timestamp: string }[];
@@ -32,9 +33,10 @@ const History: React.FC<HistoryProps> = ({ history, clearHistory }) => {
         <h2 className="text-lg font-bold text-white">Your Previous GUIDs</h2>
         <button
           onClick={clearHistory}
-          className="bg-red-900 hover:bg-white hover:text-red-900 text-white transition-all text-sm px-3 h-9 py-1 flex items-center rounded-full"
+          className="bg-red-900 hover:bg-white hover:text-red-900 text-white transition-all text-sm px-3 h-9 py-1 flex items-center rounded-full cursor-pointer"
         >
-          🗑 Clear History
+
+           <TrashIcon className="w-4 h-4 mr-2"/> Clear History
         </button>
       </div>
 
